@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+}
+.header
+{
+    position: relative;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+.underline
+{
+    position: absolute;
+    left: 50%;
+    top: 80%;
+    transform: translate(-50%,-50%);
+    height: 3px;
+    width: 220px;
+    background-color: RoyalBlue;
+}
+.cards
+{
+    width: 30vw;
+    height: 16.16vh;
+    background-color: black;
+    border: 4px solid black;
+}
+.img
+{
+    
+    background-position: center;
+    background-size: cover;
+
+}
+@media(min-width: 680px)
+{
+    .cards{
+    width: 16.16vw;
+    }
+}
+.bird
+{
+    background-image: url('https://cdn.pixabay.com/photo/2020/09/16/19/46/martin-fisher-5577331_960_720.jpg');
+}
+.wolf
+{
+    background-image: url('https://cdn.pixabay.com/photo/2016/04/18/10/17/wolf-1336229_960_720.jpg');
+}
+.cat
+{
+    background-image: url('https://cdn.pixabay.com/photo/2015/11/16/22/14/cat-1046544_960_720.jpg');
+}
+.tucan
+{
+    background-image: url('https://cdn.pixabay.com/photo/2016/09/06/21/15/toucan-1650228_960_720.jpg');
+}
+.goose
+{
+    background-image: url('https://cdn.pixabay.com/photo/2014/05/19/14/20/goose-348084_960_720.jpg');
+}
+.sheep
+{
+    background-image: url('https://cdn.pixabay.com/photo/2014/05/16/17/14/sheep-345691_960_720.jpg');
+}
+.parrot
+{
+    background-image: url('https://cdn.pixabay.com/photo/2017/08/18/15/52/ara-2655392_960_720.jpg');
+}
+.dog
+{
+    background-image: url('https://cdn.pixabay.com/photo/2019/05/14/16/43/english-bull-terrier-4202822_960_720.jpg');
+}
+.smallBird
+{
+    background-image: url('https://cdn.pixabay.com/photo/2014/02/10/09/25/robin-263315_960_720.jpg');
+}
+.hidden
+{
+    background-image: url('https://cdn.pixabay.com/photo/2016/10/22/01/54/wood-1759566_960_720.jpg');
+    cursor: pointer;
+
+}
+.off
+{
+    background-image: url('https://cdn.pixabay.com/photo/2018/04/18/18/56/check-3331239_960_720.png');
+    cursor: default;
+
+}
+
